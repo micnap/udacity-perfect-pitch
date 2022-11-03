@@ -35,13 +35,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLX-uw-zAb">
-                                <rect key="frame" x="156.5" y="555" width="101" height="20.5"/>
+                                <rect key="frame" x="156.5" y="535" width="101" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vFk-vw-Jb7">
-                                <rect key="frame" x="175" y="605.5" width="64" height="64"/>
+                                <rect key="frame" x="175" y="565.5" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="64" id="RHm-Xk-SZD"/>
                                     <constraint firstAttribute="width" constant="64" id="dHN-UZ-JpU"/>
@@ -66,8 +66,8 @@
                             <constraint firstItem="vFk-vw-Jb7" firstAttribute="centerX" secondItem="77w-Kr-7K6" secondAttribute="centerX" id="Axw-0b-b2h"/>
                             <constraint firstItem="77w-Kr-7K6" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="RSc-dl-xSY"/>
                             <constraint firstItem="77w-Kr-7K6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Wkm-mQ-h3Z"/>
-                            <constraint firstItem="vFk-vw-Jb7" firstAttribute="top" secondItem="hLX-uw-zAb" secondAttribute="bottom" constant="30" id="d25-ar-QLV"/>
-                            <constraint firstItem="hLX-uw-zAb" firstAttribute="top" secondItem="77w-Kr-7K6" secondAttribute="bottom" constant="30" id="yQl-mM-Cqo"/>
+                            <constraint firstItem="vFk-vw-Jb7" firstAttribute="top" secondItem="hLX-uw-zAb" secondAttribute="bottom" constant="10" id="d25-ar-QLV"/>
+                            <constraint firstItem="hLX-uw-zAb" firstAttribute="top" secondItem="77w-Kr-7K6" secondAttribute="bottom" constant="10" id="yQl-mM-Cqo"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="bZO-Qn-rHx"/>
